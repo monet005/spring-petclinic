@@ -9,7 +9,6 @@ pipeline {
         }
       }
       steps {
-        sh 'which docker'
       	sh 'mvn clean install'
       }
     }
